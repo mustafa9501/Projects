@@ -17,24 +17,31 @@ body{
 .nav-bar .left-nav{
     display: flex;
     list-style-type: none;
-    gap: 20px;
+    gap: 18px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .nav-bar .left-nav .fa-linkedin{
-    font-size: 32px;
+    font-size: 35px;
     color: blue;
 }
 
 .nav-bar .left-nav .fa-solid{
     position: absolute;
+    margin: 8px 16px;
+    font-size: 17px;
 }
 
 .nav-bar .left-nav .input-search{
     border: none;
-    font-size: 26px;
+    padding-left: 39px;
+    font-size: 17px;
+    width: 107%;
+    height: 40px;
     background-color: #F3F2EE;
-    border-radius: 3px;
+    border-radius: 5px;
+    margin-top: -3px;
 }
 
 .nav-bar .right-nav{
@@ -45,9 +52,15 @@ body{
     text-align: center;
     color: gray;
     margin-top: 10px;
+    cursor: pointer;
 }
  
 .nav-bar .right-nav .nav-text{
     font-size: 12px;
-    padding-top: 5px;
+    padding-top: 4px;
+}
+
+.nav-bar .right-nav .fa-circle-user{
+    color: blueviolet;
+    font-size: 18px;   
 }
